@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="calculator">
+            <div id="display">
+                <div id="history">
+                    <p id="history-text"></p>
+                </div>
+                <div id="current">
+                    <p id="current-text"></p>
+                </div>
+            </div>
+            <div id="grid">
+                <button class="btn opButton" id="add">+</button>
+                <button class="btn opButton" id="subtract">-</button>
+                <button class="btn opButton" id="multiply">*</button>
+                <button class="btn opButton" id="divide">/</button>
+                <button class="btn numButton topRow leftRow" id="one">1</button>
+                <button class="btn numButton topRow" id="two">2</button>
+                <button class="btn numButton topRow rightRow" id="three">3</button>
+                <button class="btn numButton leftRow" id="four">4</button>
+                <button class="btn numButton" id="five">5</button>
+                <button class="btn numButton rightRow" id="six">6</button>
+                <button class="btn numButton leftRow" id="seven">7</button>
+                <button class="btn numButton" id="eight">8</button>
+                <button class="btn numButton rightRow" id="nine">9</button>
+                <button class="btn numButton leftRow" id="zero">0</button>
+                <button class="btn nonNumButton" id="decimal">.</button>
+                <button class="btn nonNumButton rightRow" id="clear">AC</button>
+                <button class="btn" id="equals">=</button>
+            </div>
+        </div>
+    </div>
+    <div id="customize">
+        <button class="icons" id="wallpaper"><i class="material-icons-outlined">
+                palette
+            </i></button>
+        <button class="icons" id="mode"><i class="material-icons-outlined">
+                nights_stay
+            </i></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
